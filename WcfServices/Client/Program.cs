@@ -18,6 +18,8 @@ namespace Client
                 Console.WriteLine("x * y = {2} when x = {0} and y = {1}", 1, 2, proxy.Multiply(1, 2));
                 Console.WriteLine("x / y = {2} when x = {0} and y = {1}", 1, 2, proxy.Divide(1, 2));
             }
+
+            Console.ReadKey();
         }
     }
 }
